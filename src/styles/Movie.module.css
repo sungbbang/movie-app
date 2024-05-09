@@ -1,0 +1,43 @@
+.item {
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  border: 2px solid red;
+  transform: scale(0.95);
+}
+
+.item:hover .title {
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.thumb {
+  width: 100%;
+  display: block;
+}
+
+.titleContainer {
+  padding: 10px 20px;
+}
+
+.title {
+  display: block;
+  color: white;
+}
+
+.rating {
+  display: block;
+  margin-top: 5;
+  color: gray;
+}
+
+.starIcon {
+  color: red;
+  margin-right: 3;
+}
