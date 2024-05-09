@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.30066605.css",
+    "main.js": "/movie-app/static/js/main.cd4df298.js",
+    "static/media/movieWatching.jpg": "/movie-app/static/media/movieWatching.3fad8c8d6d4119e47b0b.jpg",
+    "static/media/popcorn.png": "/movie-app/static/media/popcorn.d07d44aef623dccadd7e.png",
+    "index.html": "/movie-app/index.html",
+    "main.30066605.css.map": "/movie-app/static/css/main.30066605.css.map",
+    "main.cd4df298.js.map": "/movie-app/static/js/main.cd4df298.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30066605.css",
+    "static/js/main.cd4df298.js"
+  ]
+}
