@@ -2,6 +2,7 @@
   border-radius: 15px 15px 0 0;
   overflow: hidden;
   transition: transform 0.3s ease;
+  height: 435px;
 }
 
 .item:hover {
@@ -17,9 +18,9 @@
   text-decoration: none;
 }
 
-.thumb {
-  width: 100%;
+.thumb img {
   display: block;
+  width: 100%;
 }
 
 .titleContainer {
