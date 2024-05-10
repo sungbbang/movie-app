@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "../styles/Movie.module.css";
 
 function Movie({ id, coverImg, title, rating }) {
+  const maxTitleLength = 50;
   return (
     <div className={styles.item}>
       <Link to={`/movie/${id}`} className={styles.link}>
@@ -10,7 +11,11 @@ function Movie({ id, coverImg, title, rating }) {
           <img src={coverImg} alt={title} />
         </div>
         <div className={styles.titleContainer}>
-          <strong className={styles.title}>{title}</strong>
+          <strong className={styles.title}>
+            {title.length < maxTitleLength
+              ? title
+              : `${title.slice(0, maxTitleLength)}...`}
+          </strong>
           <span className={styles.rating}>
             <span className={styles.starIcon}>★</span>
             {String(rating).padEnd(3, ".0")}
